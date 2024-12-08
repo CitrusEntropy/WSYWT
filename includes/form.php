@@ -14,7 +14,7 @@
         if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST["age"] >= 0)
         {
             $age = $_POST["age"];
-            if ($age/8 >= 5) $age = 5;
+            if ($age/8 >= 5) $age = 40;
             echo($movies[(int)($age/8)]);
         } else
         {
