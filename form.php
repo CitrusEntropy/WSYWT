@@ -9,7 +9,7 @@
     <?php
 
         $movies = ["Frozen", "Cars", "Hunger Games", "The Social Network", "Wolf of Wallstreet", "The Godfather"];
-        $ages = ["0-7", "8-15", "16-23", "24-31", "32-39", "40+"];
+        //           "0-7",  "8-15",     "16-23",            "24-31",           "32-39",              "40+"
 
         if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST["age"] >= 0)
         {
