@@ -18,7 +18,7 @@
             echo($movies[(int)($age/8)]);
         } else
         {
-            header("Location: ../index.php");
+            header("Location: index.php");
         }
 
     ?>

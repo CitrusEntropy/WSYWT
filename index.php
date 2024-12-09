@@ -10,7 +10,7 @@
 	<h1>What should you watch today?</h1>
 	<p>Probably the social network</p>
 
-	<form action="includes/form.php" method="post">
+	<form action="form.php" method="post">
 		<label for="fname">age:</label>
 		<input type="number" id="age" name="age">
 		<br><br>
